@@ -6,7 +6,7 @@
  * Time: 13:18
  */
 
-namespace Shopware\Themes\CustomConfigurationTheme;
+namespace Shopware\Themes\ModifiedConfigurationTheme;
 
 
 use Shopware\Components\Form;
@@ -15,7 +15,7 @@ class Theme extends \Shopware\Components\Theme
 {
     protected $extend = 'BootstrapBare';
 
-    protected $name = 'Custom Configuration Theme';
+    protected $name = 'Modified Configuration Theme';
 
     protected $description = 'An example that shows how to modify a theme\'s configuration in the Theme Manager';
 
